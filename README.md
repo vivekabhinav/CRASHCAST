@@ -1,4 +1,4 @@
-# Cus-Be-An
+# CRASHCAST
 A service that can perform customer churn and behavior prediction and help companies save millions in revenue
 
 #See the live demo at:https://cus-bean.herokuapp.com/
@@ -7,6 +7,8 @@ A service that can perform customer churn and behavior prediction and help compa
 In E-Commerce or startups, the relationship between businesses and customers are non-contractual relationship. In the non-contractual world, customers do go away, but they do so silently; they have no need to tell us they are leaving. This makes for a much trickier CLV calculation. We have to look at the time since a customer’s last transaction and ask a question: is the customer alive but dormant, or is the customer “dead” (“alive” means customers interact with us, “die” means they become inactive as customers)?
 
 When it comes to finding out who your best customers are, the old RFM matrix principle is the best. RFM stands for Recency, Frequency and Monetary. It is a customer segmentation technique that uses past purchase behavior to divide customers into groups.
+
+
 
 Can you develop a model of machine learning that can predict customers who will leave the company?
 
@@ -58,4 +60,18 @@ catboost
 xgboost
 lightgbm
 
+#RESULT: 
+After testing some arbitrary reviews, it seems that our features is performing correctly with Positive, Neutral, Negative results
+
+We also see that after running the grid search, our Support Vector Machine Classifier has improved to 94.08% accuracy level
+
+# HOW TO RUN THE FILE :
+
+1) Go to your project directory
+
+2) Run the command pip install -r requirements.txt
+
+3) Run the app using streamlit run app.py
+
+4) Copy the local URL from the terminal and run it in your browser 
 
